@@ -19,7 +19,7 @@ Automatizar o processo de cadastro de colaboradores utilizando Python, Selenium,
 5. Encerrar a execução.
 
 ## Tecnologias Utilizadas
-- Python 3.x  
+- Python 
 - Selenium WebDriver  
 - Pandas  
 - Banco de dados SQLite

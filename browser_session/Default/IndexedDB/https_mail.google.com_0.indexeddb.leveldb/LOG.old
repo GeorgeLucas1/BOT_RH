@@ -1,0 +1,12 @@
+2026/02/04-12:33:15.754 2d30 Reusing MANIFEST C:\Users\georg\Desktop\BOT_LER_EMAIL\browser_session\Default\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/04-12:33:15.758 2d30 Recovering log #35
+2026/02/04-12:33:15.800 2d30 Reusing old log C:\Users\georg\Desktop\BOT_LER_EMAIL\browser_session\Default\IndexedDB\https_mail.google.com_0.indexeddb.leveldb/000035.log 
+2026/02/04-12:33:18.407 2b04 Compacting 1@1 + 1@2 files
+2026/02/04-12:33:18.491 2b04 Generated table #38@1: 200 keys, 913078 bytes
+2026/02/04-12:33:18.492 2b04 Compacted 1@1 + 1@2 files => 913078 bytes
+2026/02/04-12:33:18.497 2b04 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/04-12:33:31.737 2b04 Level-0 table #40: started
+2026/02/04-12:33:31.787 2b04 Level-0 table #40: 3222973 bytes OK
+2026/02/04-12:33:31.791 2b04 Delete type=2 #34
+2026/02/04-12:33:31.791 2b04 Delete type=0 #35
+2026/02/04-12:33:31.791 2b04 Delete type=2 #36

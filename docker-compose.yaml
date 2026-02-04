@@ -1,0 +1,35 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  email-bot:
+    build: .
+    container_name: email-phishing-bot
+    restart: unless-stopped
+    
+    environment:
+      - HEADLESS=true
+      - MODE=continuous
+      - CHECK_INTERVAL_MINUTES=5
+      - MAX_EMAILS_PER_CHECK=10
+    
+    volumes:
+      # Persistir dados
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./browser_session:/app/browser_session
+      - ./.env:/app/.env
+    
+    # Recursos
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+          cpus: '1'
+    
+    # Health check
+    healthcheck:
+      test: ["CMD", "python", "-c", "print('ok')"]
+      interval: 5m
+      timeout: 10s
+      retries: 3
